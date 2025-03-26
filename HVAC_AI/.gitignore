@@ -1,0 +1,21 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment files
+venv/
+.env
+
+# Ignore model and dataset files (they can be generated again)
+models/*.pkl
+data/*.csv
+
+# Ignore IDE/editor config files
+.vscode/
+.idea/
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
